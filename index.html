@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to JZ Inc</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="/app.css" media="screen">
+</head>
+<body>
+	<h1>Welcome to JZ Inc.</h1>
+	<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+		<input type=hidden name="oid" value="00D36000000pAWP">
+		<input type=hidden name="retURL" value="http://jzelenkov.github.io/salesforce_web2lead/thankyou.html">
+		<!--  ----------------------------------------------------------------------  -->
+		<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+		<!--  these lines if you wish to test in debug mode.                          -->
+		<!--  <input type="hidden" name="debug" value=1>                              -->
+		<!--  <input type="hidden" name="debugEmail" value="jzelenkov@me.com">        -->
+		<!--  ----------------------------------------------------------------------  -->
+		<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+		<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+		<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+		<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+		<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+		<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+		<label for="state">JZ_Industry</label><input  id="00N36000009o6ds" maxlength="150" name="00N36000009o6ds" size="20" type="text" /><br>
+		<label for="state">JZ_Visitor_Function</label><input  id="00N36000009o6fH" maxlength="150" name="00N36000009o6fH" size="20" type="text" /><br>
+		<label for="state">JZ_Size</label><input  id="00N36000009o6zP" maxlength="150" name="00N36000009o6zP" size="20" type="text" /><br>
+		<input type="submit" name="submit">
+	</form>
+
+	<script type="text/javascript" src="/app.js"></script>
+	<script type="text/javascript" src="/widget.js"></script>
+</body>
+</html>
